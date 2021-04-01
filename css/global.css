@@ -1,0 +1,259 @@
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.s-between {
+  justify-content: space-between;
+}
+.jc-c {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+/* Defined the Width */
+/* Column Width */
+.col-1-2 {
+  width: 48.5%;
+  margin-bottom: 3%;
+}
+.col-1-3 {
+  width: 31.33%;
+  margin-right: 3%;
+}
+.col-1-5 {
+  width: 17.6%;
+  margin-right: 3%;
+}
+.col-2-3 {
+  width: 62.66%;
+  margin-right: 3%;
+}
+/* Start Header */
+.logo-nav-wrapper {
+  width: 80%;
+}
+.search-register-wrapper {
+  width: 20%;
+}
+.logo {
+  width: 10%;
+}
+.header-navigation {
+  width: 90%;
+}
+/* End Header */
+/* Start Hero */
+.hero-content {
+  width: 70%;
+}
+.hero-img {
+  width: 30%;
+}
+/* End Hero */
+/* Define the Padding Properties */
+.no-padding {
+  padding: 0;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pt-200 {
+  padding-top: 200px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.ptb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ptb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.ptb-20-50 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.ptrbl-10 {
+  padding: 10px 10px 10px 10px;
+}
+.ptrbl-20 {
+  padding: 20px 20px 20px 20px;
+}
+/* Define the Margin Properties */
+.no-margin {
+  margin: 0 !important;
+}
+#no-margin {
+  margin: 0 !important;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mtb-20-40 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.mtb-20-50 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+/* Defined the Globly Colors Classes */
+.secoundry-color {
+  color: #431c53;
+}
+.secoundry-bgcolor {
+  background-color: #431c53;
+}
+/* Style Button */
+.btn {
+  padding: 8px 15px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-family: MontserratRegular;
+}
+.register-btn {
+  border-radius: 50px;
+}
+.register-btn,
+.join-btn {
+  color: #fff;
+  font-weight: 600;
+}
+.join-btn,
+.shop-btn {
+  border-radius: 3px;
+  border: 3px solid #431c53;
+}
+.shop-btn {
+  color: #431c53;
+  border: 3px solid #431c53;
+}
+.sign-up-btn {
+  position: absolute;
+  right: 20px;
+  bottom: -50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  /* display: inline-block; */
+  color: #fff;
+  text-transform: uppercase;
+}
+/* site header */
+.site-header {
+  box-shadow: 0 0 2px #707070;
+}
+.logo img {
+  width: 60px;
+  max-width: 100%;
+  object-fit: contain;
+}
+.header-menu,
+.header-submenu {
+  list-style-type: none;
+}
+.header-menu li.has-header-submenu {
+  position: relative;
+}
+.header-submenu {
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  border-radius: 3px;
+  list-style-type: none;
+  background-color: #fff;
+  box-shadow: 0 0 2px #707070;
+  display: none;
+  position: absolute;
+  top: 20px;
+}
+.header-menu li.has-header-submenu:hover .header-submenu {
+  display: block;
+  transition: 0.3s ease-in-out;
+}
+.header-menu-item,
+.header-submenu-item {
+  display: block;
+}
+.header-menu-item .header-menu-link {
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+.header-menu-item .header-menu-link:hover {
+  color: #431c53;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+.header-submenu .header-submenu-link {
+  display: block;
+  padding: 10px;
+  padding-left: 20px;
+  border-bottom: 1px solid #dddddd;
+}
+.header-submenu .header-submenu-item:last-child .header-submenu-link {
+  border-bottom: 0;
+}
+.header-submenu .header-submenu-link:hover {
+  color: #fff;
+  background-color: #431c53;
+  transition: all 0.3s ease-in-out;
+}
+.header-menu-item .header-menu-link,
+.header-submenu .header-submenu-link,
+.login {
+  font-size: 14px;
+  color: #1c1c1c;
+}
+.search-icon,
+.login {
+  margin-right: 20px;
+}
+.search-icon img {
+  width: 20px;
+  color: #000;
+  object-fit: contain;
+}
